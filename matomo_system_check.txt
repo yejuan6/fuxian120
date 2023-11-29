@@ -1,0 +1,126 @@
+&lt;details&gt;
+&lt;summary&gt;Click to view System Check&lt;/summary&gt;
+
+### Mandatory checks
+
+#### PHP 版本 &gt;= 7.2.5:
+ ✔ 8.1.25
+
+#### PDO 扩展:
+ ✔ 
+
+#### PDO\MYSQL 扩展:
+ ✔ 
+
+#### MYSQLI 扩展:
+ ✔ 
+
+#### 其他必须的扩展:
+ ✔ zlib ✔ json ✔ filter ✔ hash ✔ session
+
+#### 必需的功能:
+ ✔ debug_backtrace ✔ eval ✔ hash ✔ gzcompress ✔ gzuncompress ✔ pack
+
+#### 必要的 PHP 配置（php.ini）:
+ ✔ session.auto_start = 0 ✔ max_execution_time = 0 OR = -1 OR &gt;= 30
+
+#### 具有写入权限的文件夹:
+ ✔ $DOC_ROOT/tmp ✔ $DOC_ROOT/tmp/assets ✔ $DOC_ROOT/tmp/cache ✔ $DOC_ROOT/tmp/climulti ✔ $DOC_ROOT/tmp/latest ✔ $DOC_ROOT/tmp/logs ✔ $DOC_ROOT/tmp/sessions ✔ $DOC_ROOT/tmp/tcpdf ✔ $DOC_ROOT/tmp/templates_c ✔ $DOC_ROOT/config
+
+
+### Optional checks
+
+#### 文件完整性:
+ ✔ 
+
+#### 64 位 PHP 二进制文件:
+ ✔ 
+
+#### 追踪器状态:
+ ✔ 
+
+#### 内存限制:
+ ✔ 2048M
+
+#### 时区:
+ ✔ 
+
+#### 打开网址:
+ ✔ curl
+
+#### PageSpeed 已关闭:
+ ✔ 
+
+#### GD &gt; 2.x + Freetype（图形功能）:
+ ✔ 
+
+#### 其它扩展:
+ ✔ json ✔ libxml ✔ dom ✔ SimpleXML ✔ openssl
+
+#### 其它功能:
+ ✔ shell_exec ✔ set_time_limit ✔ mail ✔ parse_ini_file ✔ glob ✔ gzopen ✔ md5_file
+
+#### 文件系统:
+ ✔ 
+
+#### 设置 Cron - 通过 CLI 管理进程:
+ ✔ OK
+
+#### 强制 SSL 连接:
+ ⚠ Warning: 我们建议为Matomo开启强制SSL（HTTPS）连接。请点击此处以使用SSL（HTTPS）环境继续完成安装。
+
+#### 通过 HTTPS 更新:
+ ✔ 
+
+#### 可写的JavaScript追踪器（"/matomo.js"）:
+ ✔ 
+
+
+### Informational results
+
+#### Matomo Version:
+ 4.15.1
+
+#### PHP_OS:
+ Linux
+
+#### PHP SAPI:
+ ⚠ Warning: fpm-fcgi&lt;br&gt;&lt;br&gt;PHP FPM will ignore .htaccess rules for .php files. To ensure that sensitive files cannot be accessed directly it is recommended to exclude certain directories from being handled by PHP FPM. For more information please see the  official nginx server configuration 
+
+#### PHP Timezone:
+ UTC
+
+#### PHP Time:
+ 1699529748
+
+#### PHP Datetime:
+ 2023-11-09 11:35:48
+
+#### PHP INI max_execution_time:
+ 30
+
+#### PHP INI post_max_size:
+ 8M
+
+#### PHP INI max_input_vars:
+ 1000
+
+#### PHP INI zlib.output_compression:
+ 0
+
+#### Curl Version:
+ 8.4.0, OpenSSL/3.1.4
+
+#### Suhosin Installed:
+ 0
+
+#### Server Info:
+ ⚠ Warning: nginx/1.16.1&lt;br&gt;&lt;br&gt;To ensure that sensitive files cannot be accessed directly it is recommended to configure your web server to restrict access to certain directories. For more information please see the  official nginx server configuration 
+
+#### User Agent:
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+
+#### Browser Language:
+ zh-cn,zh
+
+&lt;/details&gt;
